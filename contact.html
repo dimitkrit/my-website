@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Επικοινωνία</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="form_styles.css">
+</head>
+<body>
+
+	 <a href="dimitra.html" class="menu-link">
+	  <img src="home.png" alt="Home" class="icon"> Αρχική
+	</a>
+
+	<style>
+	  .menu-link {
+		font-size: 24px;
+		text-decoration: none;
+		color: rgb(243, 240, 206);
+		display: flex;
+		align-items: center;
+	  }
+
+	  .menu-link .icon {
+		width: 40px;
+		height: 40px;
+		margin-right: 8px;
+	  }
+	</style>
+
+
+  <main>
+    <h1>Επικοινωνία</h1>
+    <form action="mailto:d5krit3@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Όνομα</label>
+      <input type="text" id="name" name="name" placeholder="Το όνομά σας" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="το@email.σας" required>
+
+      <label for="message">Μήνυμα</label>
+      <textarea id="message" name="message" rows="6" placeholder="Γράψτε το μήνυμά σας..." required></textarea>
+
+      <button type="submit">Αποστολή</button>
+    </form>
+
+    <div class="socials">
+      <a href="d5krit3@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+     <!-- <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>-->
+      <a href="https://www.facebook.com/KritsimiDimitra/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </main>
+
+</body>
+</html>

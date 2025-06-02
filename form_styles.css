@@ -1,0 +1,137 @@
+/*στυλ για φορμα*/
+ /* <style>*/
+    :root {
+      --accent-color: #ffc107; /* χρυσό */
+      --text-light: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('sea.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: var(--text-light);
+    }
+
+    aside {
+      width: 220px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding: 20px;
+    }
+
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    aside li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: 12px 0;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    aside li a:hover {
+      color: var(--accent-color);
+    }
+
+    main {
+      margin-left: 240px;
+      padding: 60px 40px;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      color: var(--accent-color);
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #ddd;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 25px;
+      background-color: var(--accent-color);
+      color: #222;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #e6b000;
+    }
+
+    .socials {
+      margin-top: 40px;
+      display: flex;
+      gap: 24px;
+      font-size: 26px;
+    }
+
+    .socials a {
+      color: var(--text-light);
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: var(--accent-color);
+    }
+
+    @media (max-width: 768px) {
+      aside {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      main {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
