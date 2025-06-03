@@ -20,9 +20,8 @@ body {
 }
 
 h1 {
-	font-size: 4rem;
-	text-shadow: 16px 16px 32px #000000;
-	white-space: nowrap;         /* Προσθήκη: για typing effect */
+	 font-size: 4rem;
+	 white-space: nowrap;         /* Προσθήκη: για typing effect */
  	 border-right: 2px solid rgba(255,255,255,0.75); /* Προσθήκη: για blinking cursor */
  	 overflow: hidden;
 }
