@@ -74,4 +74,20 @@
 		
 	</footer>
 </body>
+	<script>
+  // Typing effect για το h1
+  const text = "Kritsimi Dimitra";
+  const headline = document.querySelector("header h1");
+
+  headline.textContent = "";
+  let index = 0;
+  function typeWriter() {
+    if (index < text.length) {
+      headline.textContent += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 100);
+    }
+  }
+  typeWriter();
+</script>
 </html>
